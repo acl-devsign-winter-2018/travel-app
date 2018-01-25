@@ -1,0 +1,25 @@
+$dark-font: #CCC9DC;
+$dark-background: #0C1821;
+$dark-headfoot: #1B2A41;
+$dark-box: 324A5F;
+
+/* $light-font: #fbbd49;
+$light-background:
+$light-headfoot: */
+
+$header-font: 'Playfair Display', serif;
+
+
+/* RESPONSIVE TYPOGRAPHY VALUES, SPECIFY WITHOUT PX
+   https://www.smashingmagazine.com/2016/05/fluid-typography/ */
+$minFontVal: 16;
+$maxFontVal: 20;
+$minViewportVal: 480;
+$maxViewportVal: 1200;
+
+$minFontSize: $(minFontVal)px;
+$maxFontSize: $(maxFontVal)px;
+$minViewportSize: $(minViewportVal)px;
+$maxViewportSize: $(maxViewportVal)px;
+
+$fluidFontSize: calc($minFontSize + ($maxFontVal - $minFontVal) * (100vw - $minViewportSize) / ($maxViewportVal - $minViewportVal));
