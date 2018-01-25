@@ -10,9 +10,9 @@ import Header from './Header';
 const template = new Template(html);
 
 const map = new Map();
-map.set('#history', History);
-map.set('#resources', Resources);
-map.set('#sample', Sample);
+// map.set('#history', History);
+// map.set('#resources', Resources);
+// map.set('#sample', Sample);
 
 export default class App {
 
