@@ -1,1 +1,67 @@
 @import '../variables.css';
+
+#root {
+  min-height: 100vh;
+  display: grid;
+  grid-template-areas:
+  "header"
+  "main"
+  "footer";
+  grid-template-rows: auto 1fr auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+#header {
+  grid-area: header; 
+  background: $dark-headfoot; 
+  color: $dark-box;
+  padding: $content-padding;
+  img {
+    width: 50px;
+  }
+  ul {
+    list-style: none;
+    li {
+      display: inline-block;
+      margin-right: 1rem;
+      margin-top: 2rem;
+      &:last-child {
+          margin-right: none;
+      }
+    }
+  }
+}
+#main {
+  grid-area: main;
+  text-align: justify;
+  width: 80%;
+  h2 {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  ul {
+    list-style: none;
+    h3 {
+      text-decoration: underline;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+#footer {
+  grid-area: footer; 
+  background: $dark-headfoot;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.maxwidth-wrap {
+  max-width: $maxViewportSize;
+  margin: 0 auto;
+}

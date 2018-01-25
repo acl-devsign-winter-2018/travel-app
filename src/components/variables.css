@@ -1,13 +1,10 @@
-$dark-font: #CCC9DC;
-$dark-background: #0C1821;
-$dark-headfoot: #1B2A41;
-$dark-box: 324A5F;
-
-/* $light-font: #fbbd49;
-$light-background:
-$light-headfoot: */
+$dark-font: #EEE5E9;
+$dark-background: #080705;
+$dark-headfoot: #C4560D;
+$dark-box: #19180A;
 
 $header-font: 'Playfair Display', serif;
+$content-padding: .5rem 1rem;
 
 
 /* RESPONSIVE TYPOGRAPHY VALUES, SPECIFY WITHOUT PX
