@@ -69,14 +69,25 @@ header {
 picture {
   figcaption {
     position: absolute;
+    display: block;
+    width: 100%;
+    text-align: center;
     color: $dark-font;
-    top: 15%;
-    left: 35%;
+    left: 15px;
+    top: 20%;
     font-size: 2rem;
     font-family: $header-font;
     font-weight: bold;
     letter-spacing: .2em;
   }
+}
+
+#enter-heading {
+  position: absolute;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
 }
 
 #footer {
@@ -93,12 +104,6 @@ picture {
   max-width: $maxViewportSize;
   margin: 0 auto;
   width: 85%;
-}
-
-@media (min-width: 600px) {
-  picture figcaption {
-    left: 45%;
-  }
 }
 
 @media (min-width:800px) {
@@ -139,8 +144,8 @@ picture {
   }
 }
 
-@media (min-width:1550px) {
+@media (min-width:1280px) {
   picture figcaption {
-    left: 47%;
+    top: 13%;
   }
 }
