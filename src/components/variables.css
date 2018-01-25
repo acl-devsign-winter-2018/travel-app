@@ -9,10 +9,10 @@ $content-padding: .5rem 1rem;
 
 /* RESPONSIVE TYPOGRAPHY VALUES, SPECIFY WITHOUT PX
    https://www.smashingmagazine.com/2016/05/fluid-typography/ */
-$minFontVal: 16;
-$maxFontVal: 20;
+$minFontVal: 18;
+$maxFontVal: 24;
 $minViewportVal: 480;
-$maxViewportVal: 1200;
+$maxViewportVal: 1400;
 
 $minFontSize: $(minFontVal)px;
 $maxFontSize: $(maxFontVal)px;
