@@ -1,0 +1,22 @@
+@import '../variables.css';
+
+main { 
+    padding-bottom:5em;
+    .content-grid-wrap > * {padding: 1rem;}
+  }
+
+    main {
+    .content-grid-wrap > div:nth-child(1) {grid-area: A;}
+    .content-grid-wrap > div:nth-child(2) {grid-area: B;}
+    .content-grid-wrap > div:nth-child(3) {grid-area: C;}
+    .content-grid-wrap > div:nth-child(4) {grid-area: D;}
+    
+    .content-grid-wrap {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+            "A A B"
+            "D C C";
+            align-items: center;      
+     }
+}

@@ -1,1 +1,30 @@
-/* main.css */
+html {height: 100%;}
+
+body {
+    min-height: 100%;
+    font-family: "Book Antigua", san-serif;
+    color: #222;
+}
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
+
+.clip {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px); 
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+.vector {
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+@media (min-width: 700px) {
+    .vector {
+        max-width: 50%;
+    }
+}

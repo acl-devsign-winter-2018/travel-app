@@ -1,0 +1,16 @@
+$dark: #754949;
+$light: #DDC2A6;
+$link: OB4F6C;
+
+$minFontVal: 16;
+$maxFontVal: 24;
+$minViewportVal: 480;
+$maxViewportVal: 1024;
+
+
+$minFontSize: $(minFontVal)px;
+$maxFontSize: $(maxFontVal)px;
+$minViewportSize: $(minViewportVal)px;
+$maxViewportSize: $(maxViewportVal)px;
+
+$fluidFontSize: calc($minFontSize + ($maxFontVal - $minFontVal) * (100vw - $minViewportSize) / ($maxViewportVal - $minViewportVal));

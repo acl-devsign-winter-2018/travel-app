@@ -25,3 +25,6 @@ Include the answers to the following in your submission:
 * SVGs appropriately implemented for vector images (2 points)
 * Appropriate responsive image strategies applied (4 points)
 * Information is designed to invite visual scanning (2 points)
+
+## Stretch Goal
+* I didn't concentrate on semantic markup while building today's demo. See if you can get creative with your grid and **still** follow the rules we learned of Semantic HTML!
