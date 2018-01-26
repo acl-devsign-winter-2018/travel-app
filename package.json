@@ -1,18 +1,9 @@
 {
-  "name": "Travel App",
+  "name": "travel-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "lint": "eslint src",
-    "htmlhint": "htmlhint --config .htmlhintrc **/*.html",
-    "pretest": "npm run lint && npm run htmlhint",
-    "test": "echo \"Error: no tests yet!\" && exit 0",
-    "start": "webpack-dev-server",
-    "build": "webpack"
-  },
-  "author": "Anwar Montasir",
-  "license": "ISC",
+  "description": "Lab: Travel App\r ===",
+  "main": "postcss.config.js",
+  "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^7.2.4",
     "copy-webpack-plugin": "^4.3.1",
@@ -28,5 +19,23 @@
     "url-loader": "^0.6.2",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.10.0"
-  }
+  },
+  "scripts": {
+    "lint": "eslint src",
+    "htmlhint": "htmlhint --config .htmlhintrc **/*.html",
+    "pretest": "npm run lint && npm run htmlhint",
+    "test": "echo \"Error: no tests yet!\" && exit 0",
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bandizzzle/travel-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bandizzzle/travel-app/issues"
+  },
+  "homepage": "https://github.com/bandizzzle/travel-app#readme"
 }

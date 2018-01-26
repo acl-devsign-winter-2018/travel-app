@@ -1,1 +1,19 @@
-/* main.css */
+/* why height: 100%;? */
+html {height: 100%;}
+/* why min-height: 100%;? */
+body {
+    min-height: 100%;
+    font: 400 100%/1.4 Helvetica, Arial, sans-serif;
+}
+/* responsive images */
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/* skip to main CSS for accessibility */
+.clip {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+}
